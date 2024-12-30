@@ -1,0 +1,15 @@
+@mixin container {
+    max-width: $container-max-width;
+    margin: 0 auto;
+    padding: 0 $padding-default;
+}
+
+@mixin flex-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@mixin transition-effect {
+    transition: background-color 0.3s ease, color 0.3s ease;
+}

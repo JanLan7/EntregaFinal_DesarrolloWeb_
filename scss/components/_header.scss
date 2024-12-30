@@ -1,0 +1,7 @@
+header {
+    background-color: $header-bg-color;
+    color: $header-text-color;
+    padding: $padding-default 0;
+    text-align: center;
+    @include transition-effect;
+}

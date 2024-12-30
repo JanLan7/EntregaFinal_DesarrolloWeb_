@@ -1,0 +1,12 @@
+// Importar base
+@import 'base/variables';
+@import 'base/reset';
+
+// Importar utilidades
+@import 'utils/mixins';
+
+// Importar componentes
+@import 'components/header';
+@import 'components/navigation';
+@import 'components/main';
+@import 'components/footer';

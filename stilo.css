@@ -1,0 +1,147 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #333;
+  color: #f4f4f4;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+nav .navbar-nav {
+  margin: 0 auto;
+}
+nav a {
+  color: #fff;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease, font-size 0.3s ease, background-color 0.3s ease;
+}
+nav a:hover {
+  text-decoration: underline;
+  color: lightblue;
+  font-size: 1.1em;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+main {
+  text-align: center;
+  padding: 50px 20px;
+  margin-bottom: 100px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+main img {
+  border-radius: 8px;
+}
+main .container-fluid {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+main .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+main .col-12, main .col-md-10 {
+  text-align: left;
+}
+main .h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+main .lead {
+  font-size: 1.25em;
+  line-height: 1.6;
+  max-width: 800px;
+  margin: 0 auto 20px auto;
+}
+
+footer {
+  background-color: #000;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+footer a {
+  color: #fff;
+  text-decoration: none;
+  transition: color 0.3s ease, font-size 0.3s ease, background-color 0.3s ease;
+}
+footer a:hover {
+  text-decoration: underline;
+  color: lightblue;
+  font-size: 1.1em;
+  background-color: rgba(0, 0, 0, 0.1);
+}
+footer .container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+footer .row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+footer .col-md-4 {
+  margin-bottom: 20px;
+}
+
+
+.text-image-container {
+    margin: 2rem 0;
+    padding: 1rem;
+}
+
+.text-image-container img {
+    margin: 1.5rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    max-width: 100%;
+    height: auto;
+}
+
+.text-image-container p {
+    max-width: 800px;
+    margin: 1.5rem auto;
+    line-height: 1.6;
+    color: #f8f9fa;
+}
+
+.section-title {
+    margin: 2.5rem 0 1.5rem;
+    font-weight: 600;
+    color: #f8f9fa;
+}
+
+@media (max-width: 768px) {
+    .text-image-container {
+        padding: 0.5rem;
+    }
+    
+    .text-image-container img {
+        margin: 1rem 0;
+    }
+    
+    .text-image-container p {
+        font-size: 0.95rem;
+        padding: 0 1rem;
+    }
+}
+
+
+.carousel-item img {
+    max-height: 400px;
+    object-fit: contain;
+}
+

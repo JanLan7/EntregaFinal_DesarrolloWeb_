@@ -1,0 +1,26 @@
+footer {
+    background-color: $header-bg-color;
+    color: $header-text-color;
+    padding: $padding-default 0;
+    text-align: center;
+    @include transition-effect;
+
+    a {
+        color: $header-text-color;
+        text-decoration: none;
+        @include transition-effect;
+
+        &:hover {
+            color: $link-hover-color;
+            font-size: 1.1em;
+        }
+    }
+
+    .container {
+        @include container;
+    }
+
+    .row {
+        @include flex-center;
+    }
+}
